@@ -1,0 +1,376 @@
+/* * * common properties * * */
+html,
+body {
+    padding: 0;
+    background-color: #dfe5ec;
+    width: 100%;
+    margin: 0;
+}
+
+input:focus {
+    background-color: gold;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    width: 1284px;
+    margin: 10px auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 23px;
+}
+
+header nav {
+    height: 50%;
+    width: 1284px;
+    font-size: 25px;
+    margin: 0 auto;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    background-color: red;
+    min-height: 30px;
+    margin: 0 auto;
+}
+
+header nav ul li {
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: space-around;*/
+}
+
+header a {
+    color: black;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+header a:hover {
+    border-radius: 10px;
+    font-weight: inherit;
+    background-color: gold;
+}
+
+header input[type=text] {
+    box-sizing: border-box;
+    height: 30px;
+    background-color: white;
+    padding: 0 8px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+
+li input:focus {
+    background-color: gold;
+}
+
+header button {
+    margin-left: 10px;
+    height: 30px;
+    margin-top: 3px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: gold;
+}
+
+main {
+    display: flex;
+    width: 1284px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: red;
+}
+
+main nav a {
+    color: black;
+    text-decoration: none;
+    display: contents;
+}
+
+main nav {
+    width: 300px;
+    height: 900px;
+    min-width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: gold;
+    margin: 10px;
+}
+
+address {
+    font-size: 25px;
+    line-height: 30px;
+    white-space: pre-line;
+    margin-left: 50px;
+}
+
+nav h2 {
+    font-size: 30px;
+    color: white;
+    text-align: left;
+}
+
+main nav ul {
+    line-height: 30px;
+    margin-left: 9px;
+    font-size: 25px;
+}
+
+main nav a:visited {
+    color: green;
+}
+
+main nav a:hover {
+    color: blue;
+}
+
+main nav a:active {
+    color: crimson;
+}
+
+main nav div a:visited {
+    color: white;
+}
+
+main nav div {
+    display: flex;
+}
+
+main iframe {
+    width: 280px;
+    margin-left: 6px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.socialMedia {
+    list-style-type: none;
+    display: flex;
+    padding-left: 20px;
+}
+
+.socialMedia a {
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.socialMedia a:visited {
+    color: white;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 40px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+/* * * Homepage * * */
+.motto {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 30px;
+    color: red;
+    text-align: center;
+    width: 1284px;
+    margin: 10px auto;
+}
+
+.choiceImage {
+    margin: 10px;
+    width: 790px;
+    height: 600px;
+}
+
+.choiceImage div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.choiceImage p {
+    background-color: beige;
+    border-radius: 10px;
+    color: black;
+    width: 270px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.choiceImage a {
+    display: contents;
+}
+
+.choiceImage img {
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.choiceImage img:hover {
+    opacity: 0.5;
+}
+
+/* * * Offers page * * */
+.offersTitle {
+    width: 1284px;
+    margin: 10px auto;
+}
+
+.offersGroup {
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    margin: 10px;
+}
+
+.offersGroup div {
+    background-color: lightsteelblue;
+    width: 220px;
+    height: 290px;
+    padding: 25px;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.offersImage {
+    width: 90px;
+    height: 90px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.verifiedImageLogo {
+    width: 30px;
+    height: 30px;
+}
+
+.offersGroup ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.buttonsProfiles {
+    display: flex;
+    margin-left: -4px;
+}
+
+.buttonsProfiles a {
+    display: flex;
+}
+
+.buttonsProfiles img:hover {
+    background-color: gold;
+}
+
+.buttonsProfiles a:hover {
+    color: gold;
+}
+
+.offersGroup h3 {
+    margin: 0 auto;
+}
+
+/* * * Signup - in * * */
+.signUpInTitle {
+    width: 1284px;
+    margin: 10px auto;
+}
+
+legend {
+    font-size: 25px;
+}
+
+.signInUpContainer {
+    height: 550px;
+    width: 680px;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 17px;
+    display: flex;
+}
+
+.signInUpContainer input {
+    width: 280px;
+    height: 20px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.signInUpContainer button {
+    width: 65px;
+    height: 20px;
+    border-radius: 8px;
+}
+
+.signInUpContainer button:hover {
+    background-color: lawngreen;
+}
+
+.signInUpContainer h3 {
+    font-size: 17px;
+    text-decoration: underline;
+    color: blue;
+}
+
+.signInUpContainer input[type=checkbox] {
+    width: 15px;
+    height: 15px;
+    display: flex;
+    /*margin-left: 43%;*/
+    margin-top: -17px;
+}
+
+.signInUpContainer label {
+    display: block;
+}
+
+.signInUpContainer select {
+    margin: 5px 10px;
+}

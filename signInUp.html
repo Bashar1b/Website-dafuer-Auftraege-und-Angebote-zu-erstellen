@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>H4E - SignupIn</title>
+    <link href="style.css" rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+        </ul>
+    </nav>
+</header>
+<h1>H4E</h1>
+<h2 class="signUpInTitle">Signup - in</h2>
+<main>
+    <nav>
+    </nav>
+    <div class="signInUpContainer">
+        <div>
+            <form>
+                <fieldset>
+                    <legend>SignIn</legend>
+                    <label for="emailSignIn"><strong>Email</strong></label>
+                    <input id="emailSignIn" name="email" placeholder="Enter Email" required type="text">
+                    <label for="passwordSignIn"><strong>Password</strong></label>
+                    <input id="passwordSignIn" placeholder="Enter Password" required type="password">
+                    <button type="submit">Login</button>
+                    <a href="#"><h3>Forgot Password!</h3></a>
+                </fieldset>
+            </form>
+        </div>
+        <div>
+            <form>
+                <fieldset>
+                    <legend>SignUp</legend>
+                    <label for="firstName"><strong>First Name</strong></label>
+                    <input id="firstName" name="firstName" placeholder="First Name" required type="text">
+                    <label for="lastName"><strong>Last Name</strong></label>
+                    <input id="lastName" name="last name" placeholder="Last Name" required type="text">
+
+                    <label for="emailSignUp"><strong>Email</strong></label>
+                    <input id="emailSignUp" name="email" placeholder="Email" required type="email">
+                    <label for="passwordSignUp"><strong>Password</strong></label>
+                    <input id="passwordSignUp" minlength="8" name="pwd" placeholder="Password" required type="password">
+
+                    <label for="birthday"><strong>Birthday:</strong></label>
+                    <input id="birthday" name="birthday" required type="date">
+                    <label for="gender"><strong>Gender:</strong></label>
+                    <select id="gender">
+                        <option value="female">Female</option>
+                        <option value="male">Male</option>
+                    </select>
+
+                    <label for="checked">Terms & Privacy:</label>
+                    <input checked="checked" id="checked" name="terms&privacy" required type="checkbox">
+                    <button type="submit">Signup</button>
+                    <button type="button">Cancel</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</main>
+</body>
+</html>
